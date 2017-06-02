@@ -1,9 +1,10 @@
 package us.csbu.cs540.first;
 
 /**
- * 
+ * Homework
+ * Student class extends Person class
  * @author JeremyLu
- *
+ * @version 0.0.1
  */
 public class Student extends Person {
 
