@@ -3,5 +3,8 @@ package us.csbu.cs540.first;
 public enum ImmigrationStatus {
 	CITIZEN,
 	GREEN_CARD,
-	VISA
+	WORKING_VISA,
+	STUDENT_VISA,
+	NO_VISA,
+	REFUGEE
 }

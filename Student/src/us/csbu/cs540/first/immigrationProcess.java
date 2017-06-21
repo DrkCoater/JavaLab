@@ -8,7 +8,7 @@ package us.csbu.cs540.first;
  *
  */
 public interface immigrationProcess {
-	void applyVisa();
+	boolean applyVisa();
+	boolean applyWorkPermit();
 	void changeStatus(ImmigrationStatus newStatus);
-	void applyWorkPermit();
 }
