@@ -5,6 +5,7 @@ public enum ImmigrationStatus {
 	GREEN_CARD,
 	WORKING_VISA,
 	STUDENT_VISA,
+	TRAVEL_VISA,
 	NO_VISA,
 	REFUGEE
 }

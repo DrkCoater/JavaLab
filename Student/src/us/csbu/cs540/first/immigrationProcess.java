@@ -8,7 +8,22 @@ package us.csbu.cs540.first;
  *
  */
 public interface immigrationProcess {
-	boolean applyVisa();
+	/**
+	 * 
+	 * @param type
+	 * @return
+	 */
+	boolean applyVisa(VisaType type);
+	
+	/**
+	 * 
+	 * @return
+	 */
 	boolean applyWorkPermit();
+	
+	/**
+	 * 
+	 * @param newStatus
+	 */
 	void changeStatus(ImmigrationStatus newStatus);
 }
