@@ -33,11 +33,11 @@ public class Book {
 		return this.title;
 	}
 	
-	public Boolean rented() {
-		return false;
+	public void rented() {
+		this.borrowed = true;
 	}
 	
-	public Boolean returned() {
-		return false;
+	public void returned() {
+		this.borrowed = false;
 	}
 }

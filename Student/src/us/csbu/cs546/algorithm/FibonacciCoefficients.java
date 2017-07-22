@@ -1,0 +1,32 @@
+package us.csbu.cs546.algorithm;
+
+import java.util.Scanner;
+
+public class FibonacciCoefficients {
+	public static void main(String string[]) {
+		fibonacci();
+	}
+	
+	public static void fibonacci()
+    {
+        int i, space, rows, k=0;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter Number of Rows : ");
+        rows = scan.nextInt();
+        for(i=1; i<=rows; i++)
+        {
+            for(space=1; space<=(rows-i); space++)
+            {
+                System.out.print("  ");
+            }
+            while(k != (2*i-1))
+            {
+                System.out.print(k + " ");
+                k++;
+            }
+            k = 0;
+            System.out.println();
+        }
+        scan.close();
+    }
+}
